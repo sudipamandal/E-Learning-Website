@@ -1,0 +1,46 @@
+:root {
+  --color1: #f1f6f9;
+  --color2: #9ba4b5;
+  --color3: #394867;
+  --color4: #0a043c;
+  --color5: #000000;
+  --color6: #17bf9e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90px;
+  background-color: var(--color5);
+}
+
+.nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+.nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: var(--color1);
+  font-size: 1.5rem;
+}
+
+.nav ul li a:hover {
+  color: var(--color6);
+}
+
+.left {
+  font-size: 2.5rem;
+  color: var(--color1);
+}
